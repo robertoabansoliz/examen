@@ -5,9 +5,5 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class controllerTest {
-
-    @GetMapping(path = "/test")
-    public String holamundo() {
-        return "test";
-    }
+    
 }
